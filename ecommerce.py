@@ -2,6 +2,10 @@ file=open("data.json","r",500)
 content = file.read()
 #print(content)
 file.close()
+#can also be written as;
+with open("data.json","r") as my_data:
+  content=my_data
+
 
 #open files for writing
 file2 = open("file.txt", "w")
